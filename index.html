@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <div class="main-flex">
+        <div class="form-section">
+            <div class="container">
+                <div>
+                    <h1>Add a new Book</h1>
+                </div>
+                <form>
+                    <div class="input-block">
+                        <input type="text" id="book-title" required>
+                        <label class="position" for="book-title">What is the title of the book?</label>
+                    </div>
+                    
+                    <div class="input-block">
+                        <input type="text" id="book-author" required>
+                        <label class="position" for="book-author">Who is the author of the book?</label>
+                    </div>
+
+                    <div class="input-block">
+                        <input type="number" id="book-pages" required>
+                        <label class="position" for="book-pages">How many pages are in the book?</label>
+                    </div>
+
+                    <div class="check-box">
+                        <input type="checkbox" id="read">
+                        <label for="read">I have already read this book</label>
+                    </div>
+                    <div class="btn-wrapper">
+                        <button type="button" id="add-book">Add a new book</button>
+                    </div>
+                </form>
+              
+
+            </div>
+
+        </div>
+        <div class="book-section">
+            <div class="container" id="book-container">
+                <div class="books-info">
+                    <p>TITLE</p>
+                    <p>AUTHOR</p>
+                    <p>PAGES</p>
+                    <p>STATUS</p>
+                    <p>REMOVAL</p>
+                </div>
+                
+              
+                
+                
+                
+                
+                
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    
+    <script src="./app.js"></script>
+</body>
+</html>

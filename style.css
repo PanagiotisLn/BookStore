@@ -1,0 +1,113 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 1.2rem;
+}
+
+.main-flex{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.form-section{
+    min-width: 25%;
+    background-color: rgb(203, 155, 66);
+}
+.container{
+    width: 80%;
+    margin: 50px auto;
+}
+.book-section {
+    min-width: 75%;
+    background-color: rgb(138, 143, 148);
+}
+.form-section  h1 {
+    margin-bottom: 50px;
+}
+form {
+    position: relative;
+}
+.input-block {
+    margin-bottom: 50px;
+
+}
+input[type="text"],input[type="number"] {
+    width: 100%;
+    border: none;
+    border-bottom: 2px dotted black;
+    height: 30px;
+    
+    
+    
+}
+
+
+
+.position{
+    display: block;
+    position: relative;
+    left: 5px;
+    bottom: 27px;   
+    transition: all 0.3s ease-in;
+    
+}
+input[type="text"]:focus + label, input[type="number"]:focus+label {
+    bottom: 52px;
+    font-size: 1rem;
+    border: none;
+}
+.btn-wrapper {
+    text-align: center;
+}
+#add-book{
+    width: 190px;
+    height: 60px;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    background-color: rgb(193, 192, 192);
+    
+}
+.check-box{
+    margin-bottom: 30px;
+}
+
+.books-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgb(77, 34, 90);
+    color: white;
+}
+.books-info > *{
+    flex: 1;
+}
+.book {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.book > * {
+    flex: 1;
+    
+}
+.delete-btn {
+    background-color: red;
+    color: white;
+    border-radius: 15px;  
+    width: 100px;
+    height: 35px;
+}
+
+.filled{
+    bottom: 52px;
+    font-size: 1rem;
+    border: none;
+}
